@@ -51,6 +51,25 @@ Raspberry Pi, Python, Machine Learning을 활용해 컵을 인식하고 분류�
 Arduino, NFC, Bluetooth를 활용한 스마트 무선 주차 시스템 프로젝트입니다.  
 주차 상태 확인 흐름을 구현했고 교내대회에서 금상을 수상했습니다.
 
+## Currently Learning
+
+- 반응형 웹 UI 구현 고도화
+- Python 기반 백엔드 구조 이해
+- Blender 3D 렌더링과 영상 편집 연계 작업
+- 디자인 작업물을 웹 포트폴리오에 효과적으로 보여주는 방식
+
+## Work Style
+
+- 화면의 완성도와 실제 동작 여부를 함께 중요하게 생각합니다.
+- 문제가 생기면 원인을 나눠서 확인하고 끝까지 해결하려고 합니다.
+- 개발, 디자인, 영상 작업을 연결해 하나의 결과물로 정리하는 데 관심이 있습니다.
+
+## GitHub Stats
+
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=ajttk369&show_icons=true&theme=default)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ajttk369&layout=compact)
+
 ## Links
 
 - Portfolio: https://portfolio-mauve-theta-54.vercel.app/
