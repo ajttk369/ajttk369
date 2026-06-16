@@ -53,6 +53,15 @@ HeidiSQL을 활용해 데이터베이스를 조회하고 필요한 데이터를 
 
 ## Projects
 
+### InsightBoard 매출 분석 대시보드
+
+CSV 매출 데이터를 업로드하면 지원 지표를 자동으로 계산하고, 차트와 인사이트로 매출 흐름을 확인할 수 있는 데이터 시각화 서비스입니다.
+Next.js, TypeScript, Tailwind CSS, Recharts를 활용해 CSV 파싱, KPI 계산, 매출 추이·카테고리별 비율·상품별 TOP 5·지역별 매출 차트, 필터링 테이블, CSV 다운로드, 리포트 저장 기능을 구현했습니다.
+
+- 배포: https://insightboard-xi.vercel.app/
+- GitHub: https://github.com/ajttk369/InsightBoard
+- 주요 기능: CSV 업로드, 샘플 데이터 체험, 총 매출/주문 수/평균 주문 금액 계산, 매출 추이 차트, 카테고리별 매출 비율, 상품별 TOP 5, 지역별 매출 비교, 신규/재구매 고객 비율, 필터링 테이블, CSV 다운로드, 리포트 저장
+
 ### CareerLens AI 포트폴리오 분석
 
 포트폴리오와 자기소개서 내용을 입력하면 지원 직무 기준으로 점수와 개선 방향을 정리해주는 웹 도구입니다.  
