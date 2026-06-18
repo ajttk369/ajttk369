@@ -53,9 +53,28 @@ HeidiSQL을 활용해 데이터베이스를 조회하고 필요한 데이터를 
 
 ## Projects
 
+### 지도로 지도 서비스
+
+장소명과 주소를 검색하고 지도 위에서 결과, 상세 정보, 즐겨찾기, 길찾기를 확인할 수 있는 지도 기반 웹 서비스입니다.
+Naver 지도/검색/좌표/길찾기 API와 TAGO 교통 API를 연결해 지도 중심의 검색 흐름을 구현했습니다. 거리뷰와 일부 고급 기능은 현재 업데이트 중 상태로 표시했습니다.
+
+- 배포: https://jidoro-map.vercel.app/
+- 주요 기능: 장소/주소 검색, 지도 마커, 결과 목록, 상세 패널, 즐겨찾기, 자동차/대중교통/도보/자전거 길찾기, 모바일 하단 시트 UI
+- 사용 기술: Next.js 14, React 18, TypeScript, Tailwind CSS, LocalStorage, Vercel
+- 사용 API: Naver Maps JavaScript API, Naver Local Search API, Naver Cloud Geocoding API, Naver Cloud Reverse Geocoding API, Naver Cloud Directions API, TAGO 교통 정보 API
+
+### 웹사이트 리뉴얼
+
+온라인몰 화면을 참고해 홈 화면 정보 구조와 픽업 주문 흐름을 개선한 UX/UI 리뉴얼 프로토타입입니다.
+상품 탐색, 매장 재고 확인, 픽업 가능 매장 추천, 로그인 모달 흐름을 한 페이지 안에서 자연스럽게 이어지도록 구성했습니다.
+
+- 배포: https://website-renewal-navy.vercel.app/
+- 주요 기능: 홈 화면 정보 구조 재배치, 상품/매장 카드, 픽업 가능 정보, 로그인 모달, 반응형 UI
+- 사용 기술: HTML5, CSS3, JavaScript, Vercel
+
 ### InsightBoard 매출 분석 대시보드
 
-CSV 매출 데이터를 업로드하면 지원 지표를 자동으로 계산하고, 차트와 인사이트로 매출 흐름을 확인할 수 있는 데이터 시각화 서비스입니다.
+CSV 매출 데이터를 업로드하면 주요 지표를 자동으로 계산하고, 차트와 인사이트로 매출 흐름을 확인할 수 있는 데이터 시각화 서비스입니다.
 Next.js, TypeScript, Tailwind CSS, Recharts를 활용해 CSV 파싱, KPI 계산, 매출 추이·카테고리별 비율·상품별 TOP 5·지역별 매출 차트, 필터링 테이블, CSV 다운로드, 리포트 저장 기능을 구현했습니다.
 
 - 배포: https://insightboard-xi.vercel.app/
