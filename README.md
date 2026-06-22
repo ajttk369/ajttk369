@@ -90,6 +90,7 @@ Next.js, TypeScript, OpenAI Structured Outputs, Supabase를 활용해 분석 요
 Naver 지도/검색/좌표/길찾기 API와 TAGO 교통 API를 연결해 지도 중심의 검색 흐름을 구현했습니다. 거리뷰와 일부 고급 기능은 업데이트 중 상태로 표시했습니다.
 
 - 배포: https://jidoro-map.vercel.app/
+- GitHub: https://github.com/ajttk369/jidoro-map
 - 주요 기능: 장소/주소 검색, 지도 마커, 결과 목록, 상세 패널, 즐겨찾기, 자동차/대중교통/도보/자전거 길찾기, 모바일 하단 시트 UI
 - 사용 기술: Next.js 14, React 18, TypeScript, Tailwind CSS, LocalStorage, Vercel
 - 사용 API: Naver Maps JavaScript API, Naver Local Search API, Geocoding API, Reverse Geocoding API, Directions API, TAGO 교통 정보 API
@@ -100,6 +101,7 @@ Naver 지도/검색/좌표/길찾기 API와 TAGO 교통 API를 연결해 지도 
 상품 탐색, 매장 재고 확인, 픽업 가능 매장 추천, 로그인 모달 흐름을 한 페이지 안에서 자연스럽게 이어지도록 구성했습니다.
 
 - 배포: https://website-renewal-navy.vercel.app/
+- GitHub: https://github.com/ajttk369/InsightBoard
 - 주요 기능: 홈 화면 정보 구조 재배치, 상품/매장 카드, 픽업 가능 정보, 로그인 모달, 반응형 UI
 - 사용 기술: HTML5, CSS3, JavaScript, Vercel
 
@@ -118,6 +120,7 @@ Python Flask와 SQLite를 활용해 학생 데이터 등록, 조회, 수정, 삭
 검색/필터, 상태별 통계, SQLite 테이블 자동 생성 기능을 구현했습니다.
 
 - 배포: https://student-lms-manager.onrender.com/
+- GitHub: https://github.com/ajttk369/student-lms-manager
 - 주요 기능: 학생 등록/조회/수정/삭제, 검색, 상태 필터, 통계 카드, SQLite 자동 생성
 - 사용 기술: Python, Flask, SQLite, HTML, CSS, JavaScript
 
@@ -127,6 +130,7 @@ Python Flask와 SQLite를 활용해 학생 데이터 등록, 조회, 수정, 삭
 상품 목록, 브랜드, 이벤트, 검색, 마이페이지 등 쇼핑몰 화면 흐름을 구성했습니다.
 
 - 배포: https://shopping-mall-rosy.vercel.app/
+- GitHub: https://github.com/ajttk369/Shopping-mall
 - 사용 기술: HTML, CSS, JavaScript, Python
 
 ### 8. AI Future Expo
@@ -135,6 +139,7 @@ AI 전시 홍보를 위한 반응형 웹사이트입니다.
 HTML, CSS, JavaScript로 화면을 구현하고 Vercel에 배포했으며, 페이지에 사용된 영상 콘텐츠는 Premiere Pro와 After Effects를 활용해 제작했습니다.
 
 - 배포: https://ai-expo-sooty.vercel.app/
+- GitHub: https://github.com/ajttk369/AI-Expo
 - 사용 기술: HTML, CSS, JavaScript, Premiere Pro, After Effects, Vercel
 
 ### 9. Automatic Cup Collector
