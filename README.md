@@ -84,7 +84,16 @@ Next.js, TypeScript, OpenAI Structured Outputs, Supabase를 활용해 분석 요
 - 주요 기능: 입력 품질 점검, 종합/세부 점수, 개선 우선순위, 개선 문구 복사, 면접 질문/답변, 결과 저장/삭제
 - 사용 기술: Next.js, TypeScript, OpenAI, Supabase, Tailwind CSS, Vercel
 
-### 3. 지도로 지도 서비스
+### 3. InsightBoard 매출 분석 대시보드
+
+CSV 매출 데이터를 업로드하면 주요 지표를 자동 계산하고, 차트와 인사이트로 매출 흐름을 확인할 수 있는 데이터 시각화 서비스입니다.
+
+- 배포: https://insightboard-xi.vercel.app/
+- GitHub: https://github.com/ajttk369/InsightBoard
+- 주요 기능: CSV 업로드, 샘플 데이터 체험, KPI 계산, 매출 추이 차트, 카테고리별 비율, 상품 TOP 5, 필터링 테이블, CSV 다운로드, 리포트 저장
+- 사용 기술: Next.js, TypeScript, Tailwind CSS, Recharts, Vercel
+
+### 4. 지도로 지도 서비스
 
 장소명과 주소를 검색하고 지도 위에서 결과, 상세 정보, 즐겨찾기, 길찾기를 확인할 수 있는 지도 기반 웹 서비스입니다.  
 Naver 지도/검색/좌표/길찾기 API와 TAGO 교통 API를 연결해 지도 중심의 검색 흐름을 구현했습니다. 거리뷰와 일부 고급 기능은 업데이트 중 상태로 표시했습니다.
@@ -95,26 +104,7 @@ Naver 지도/검색/좌표/길찾기 API와 TAGO 교통 API를 연결해 지도 
 - 사용 기술: Next.js 14, React 18, TypeScript, Tailwind CSS, LocalStorage, Vercel
 - 사용 API: Naver Maps JavaScript API, Naver Local Search API, Geocoding API, Reverse Geocoding API, Directions API, TAGO 교통 정보 API
 
-### 4. 웹사이트 리뉴얼
-
-온라인몰 화면을 참고해 홈 화면 정보 구조와 픽업 주문 흐름을 개선한 UX/UI 리뉴얼 프로토타입입니다.  
-상품 탐색, 매장 재고 확인, 픽업 가능 매장 추천, 로그인 모달 흐름을 한 페이지 안에서 자연스럽게 이어지도록 구성했습니다.
-
-- 배포: https://website-renewal-navy.vercel.app/
-- GitHub: https://github.com/ajttk369/InsightBoard
-- 주요 기능: 홈 화면 정보 구조 재배치, 상품/매장 카드, 픽업 가능 정보, 로그인 모달, 반응형 UI
-- 사용 기술: HTML5, CSS3, JavaScript, Vercel
-
-### 5. InsightBoard 매출 분석 대시보드
-
-CSV 매출 데이터를 업로드하면 주요 지표를 자동 계산하고, 차트와 인사이트로 매출 흐름을 확인할 수 있는 데이터 시각화 서비스입니다.
-
-- 배포: https://insightboard-xi.vercel.app/
-- GitHub: https://github.com/ajttk369/InsightBoard
-- 주요 기능: CSV 업로드, 샘플 데이터 체험, KPI 계산, 매출 추이 차트, 카테고리별 비율, 상품 TOP 5, 필터링 테이블, CSV 다운로드, 리포트 저장
-- 사용 기술: Next.js, TypeScript, Tailwind CSS, Recharts, Vercel
-
-### 6. 학생 관리 시스템
+### 5. 학생 관리 시스템
 
 Python Flask와 SQLite를 활용해 학생 데이터 등록, 조회, 수정, 삭제가 가능한 학생 관리 페이지를 제작했습니다.  
 검색/필터, 상태별 통계, SQLite 테이블 자동 생성 기능을 구현했습니다.
@@ -123,6 +113,16 @@ Python Flask와 SQLite를 활용해 학생 데이터 등록, 조회, 수정, 삭
 - GitHub: https://github.com/ajttk369/student-lms-manager
 - 주요 기능: 학생 등록/조회/수정/삭제, 검색, 상태 필터, 통계 카드, SQLite 자동 생성
 - 사용 기술: Python, Flask, SQLite, HTML, CSS, JavaScript
+
+### 6. 웹사이트 리뉴얼
+
+온라인몰 화면을 참고해 홈 화면 정보 구조와 픽업 주문 흐름을 개선한 UX/UI 리뉴얼 프로토타입입니다.  
+상품 탐색, 매장 재고 확인, 픽업 가능 매장 추천, 로그인 모달 흐름을 한 페이지 안에서 자연스럽게 이어지도록 구성했습니다.
+
+- 배포: https://website-renewal-navy.vercel.app/
+- GitHub: https://github.com/ajttk369/InsightBoard
+- 주요 기능: 홈 화면 정보 구조 재배치, 상품/매장 카드, 픽업 가능 정보, 로그인 모달, 반응형 UI
+- 사용 기술: HTML5, CSS3, JavaScript, Vercel
 
 ### 7. Shopping Mall Page
 
